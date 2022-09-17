@@ -1,0 +1,4 @@
+[Report]
+Uri=file:///home/mindbowser/Downloads/inshare-file-sharing-app-api-master.zip
+Message=Subject `file:///home/mindbowser/Downloads/inshare-file-sharing-app-api-master.zip' is not in domain `nie:DataObject' of property `nie:interpretedAs'
+Sparql=INSERT DATA {  GRAPH tracker:FileSystem {    <file:///home/mindbowser/Downloads/inshare-file-sharing-app-api-master.zip> tracker:extractorHash "(null)" .  }}; INSERT DATA {\n<file:///home/mindbowser/Downloads/inshare-file-sharing-app-api-master.zip> nie:interpretedAs _:1 .\n_:1 nie:mimeType "application/zip" ; \n  nie:isStoredAs <file:///home/mindbowser/Downloads/inshare-file-sharing-app-api-master.zip> .\n};\n

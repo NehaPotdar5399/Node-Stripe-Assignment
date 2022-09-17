@@ -1,0 +1,4 @@
+[Report]
+Uri=file:///home/mindbowser/Downloads/Assignment_2-main(1).zip
+Message=Subject `file:///home/mindbowser/Downloads/Assignment_2-main(1).zip' is not in domain `nie:DataObject' of property `nie:interpretedAs'
+Sparql=INSERT DATA {  GRAPH tracker:FileSystem {    <file:///home/mindbowser/Downloads/Assignment_2-main(1).zip> tracker:extractorHash "(null)" .  }}; INSERT DATA {\n<file:///home/mindbowser/Downloads/Assignment_2-main(1).zip> nie:interpretedAs _:1 .\n_:1 nie:mimeType "application/zip" ; \n  nie:isStoredAs <file:///home/mindbowser/Downloads/Assignment_2-main(1).zip> .\n};\n

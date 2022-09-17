@@ -1,0 +1,15 @@
+<conversion>
+  <applied-converters>
+    <converter id="kotlin-non-jvm-source-roots" />
+    <converter id="android-native-run-configurations" />
+  </applied-converters>
+  <project-files>
+    <f p="./.idea/modules/My_Application.iml" t="1645380580" />
+    <f p="./.idea/compiler.xml" t="1645380541" />
+    <f p="./.idea/gradle.xml" t="1645380692" />
+    <f p="./.idea/misc.xml" t="1645380541" />
+    <f p="./.idea/workspace.xml" t="1645380580" />
+    <f p="./.idea/modules/app/My_Application.app.iml" t="1645380580" />
+    <f p="./.idea/modules.xml" t="1645380580" />
+  </project-files>
+</conversion>

@@ -1,0 +1,79 @@
+{
+  "Version": "21.10",
+  "OEM": {
+    "Vendor": "Dell Inc.",
+    "Product": "Latitude E5470",
+    "Family": "Latitude"
+  },
+  "BIOS": {
+    "Vendor": "Dell Inc.",
+    "Version": "1.20.4"
+  },
+  "CPU": {
+    "OpMode": "32-bit, 64-bit",
+    "CPUs": "8",
+    "Threads": "2",
+    "Cores": "4",
+    "Sockets": "1",
+    "Vendor": "GenuineIntel",
+    "Family": "6",
+    "Model": "94",
+    "Stepping": "3",
+    "Name": "Intel(R) Core(TM) i7-6820HQ CPU @ 2.70GHz",
+    "Virtualization": "VT-x"
+  },
+  "Arch": "amd64",
+  "HwCap": "x86-64-v3",
+  "GPU": [
+    {
+      "Vendor": "8086",
+      "Model": "191b"
+    }
+  ],
+  "RAM": 16.3,
+  "Disks": [
+    256.1
+  ],
+  "Partitions": [
+    244.5,
+    0.5
+  ],
+  "Screens": [
+    {
+      "Size": "310mmx170mm",
+      "Resolution": "1366x768",
+      "Frequency": "59.80"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "wayland"
+  },
+  "Language": "en_IN",
+  "Timezone": "Asia/Kolkata",
+  "Install": {
+    "Media": "Ubuntu 21.10 \"Impish Indri\" - Release amd64 (20211012)",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "use_device",
+    "DownloadUpdates": false,
+    "Language": "en",
+    "Minimal": false,
+    "RestrictedAddons": false,
+    "Stages": {
+      "0": "language",
+      "3": "console_setup",
+      "7": "wireless",
+      "19": "prepare",
+      "40": "partman",
+      "48": "start_install",
+      "53": "timezone",
+      "57": "usersetup",
+      "74": "user_done",
+      "382": "done"
+    }
+  }
+}
