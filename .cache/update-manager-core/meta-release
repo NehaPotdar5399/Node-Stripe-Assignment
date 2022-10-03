@@ -335,10 +335,10 @@ UpgradeToolSignature: http://old-releases.ubuntu.com/ubuntu/dists/eoan-updates/m
 
 Dist: focal
 Name: Focal Fossa
-Version: 20.04.4 LTS
+Version: 20.04.5 LTS
 Date: Thu, 23 April 2020 20:04:00 UTC
 Supported: 1
-Description: This is the 20.04.4 LTS release
+Description: This is the 20.04.5 LTS release
 Release-File: http://archive.ubuntu.com/ubuntu/dists/focal-updates/Release
 ReleaseNotes: http://archive.ubuntu.com/ubuntu/dists/focal-updates/main/dist-upgrader-all/current/ReleaseAnnouncement
 ReleaseNotesHtml: http://archive.ubuntu.com/ubuntu/dists/focal-updates/main/dist-upgrader-all/current/ReleaseAnnouncement.html
@@ -362,31 +362,30 @@ Version: 21.04
 Date: Thu, 22 April 2021 21:04:00 UTC
 Supported: 0
 Description: This is the 21.04 release
-Release-File: http://archive.ubuntu.com/ubuntu/dists/hirsute-updates/Release
+Release-File: http://old-releases.ubuntu.com/ubuntu/dists/hirsute-updates/Release
 ReleaseNotes: http://changelogs.ubuntu.com/EOLReleaseAnnouncement
-UpgradeTool: http://archive.ubuntu.com/ubuntu/dists/hirsute-updates/main/dist-upgrader-all/current/hirsute.tar.gz
-UpgradeToolSignature: http://archive.ubuntu.com/ubuntu/dists/hirsute-updates/main/dist-upgrader-all/current/hirsute.tar.gz.gpg
+UpgradeTool: http://old-releases.ubuntu.com/ubuntu/dists/hirsute-updates/main/dist-upgrader-all/current/hirsute.tar.gz
+UpgradeToolSignature: http://old-releases.ubuntu.com/ubuntu/dists/hirsute-updates/main/dist-upgrader-all/current/hirsute.tar.gz.gpg
 
 Dist: impish
 Name: Impish Indri
 Version: 21.10
 Date: Thu, 14 October 2021 21:10:00 UTC
-Supported: 1
+Supported: 0
 Description: This is the 21.10 release
-Release-File: http://archive.ubuntu.com/ubuntu/dists/impish-updates/Release
-ReleaseNotes: http://archive.ubuntu.com/ubuntu/dists/impish-updates/main/dist-upgrader-all/current/ReleaseAnnouncement
-ReleaseNotesHtml: http://archive.ubuntu.com/ubuntu/dists/impish-updates/main/dist-upgrader-all/current/ReleaseAnnouncement.html
-UpgradeTool: http://archive.ubuntu.com/ubuntu/dists/impish-updates/main/dist-upgrader-all/current/impish.tar.gz
-UpgradeToolSignature: http://archive.ubuntu.com/ubuntu/dists/impish-updates/main/dist-upgrader-all/current/impish.tar.gz.gpg
+Release-File: http://old-releases.ubuntu.com/ubuntu/dists/impish-updates/Release
+ReleaseNotes: http://changelogs.ubuntu.com/EOLReleaseAnnouncement
+UpgradeTool: http://old-releases.ubuntu.com/ubuntu/dists/impish-updates/main/dist-upgrader-all/current/impish.tar.gz
+UpgradeToolSignature: http://old-releases.ubuntu.com/ubuntu/dists/impish-updates/main/dist-upgrader-all/current/impish.tar.gz.gpg
 
 Dist: jammy
 Name: Jammy Jellyfish
-Version: 22.04 LTS
+Version: 22.04.1 LTS
 Date: Thu, 21 April 2022 22:04:00 UTC
 Supported: 1
-Description: This is the 22.04 LTS release
-Release-File: http://archive.ubuntu.com/ubuntu/dists/jammy/Release
-ReleaseNotes: http://archive.ubuntu.com/ubuntu/dists/jammy/main/dist-upgrader-all/current/ReleaseAnnouncement
-ReleaseNotesHtml: http://archive.ubuntu.com/ubuntu/dists/jammy/main/dist-upgrader-all/current/ReleaseAnnouncement.html
-UpgradeTool: http://archive.ubuntu.com/ubuntu/dists/jammy/main/dist-upgrader-all/current/jammy.tar.gz
-UpgradeToolSignature: http://archive.ubuntu.com/ubuntu/dists/jammy/main/dist-upgrader-all/current/jammy.tar.gz.gpg
+Description: This is the 22.04.1 LTS release
+Release-File: http://archive.ubuntu.com/ubuntu/dists/jammy-updates/Release
+ReleaseNotes: http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/dist-upgrader-all/current/ReleaseAnnouncement
+ReleaseNotesHtml: http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/dist-upgrader-all/current/ReleaseAnnouncement.html
+UpgradeTool: http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/dist-upgrader-all/current/jammy.tar.gz
+UpgradeToolSignature: http://archive.ubuntu.com/ubuntu/dists/jammy-updates/main/dist-upgrader-all/current/jammy.tar.gz.gpg
