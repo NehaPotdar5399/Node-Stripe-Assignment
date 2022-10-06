@@ -1,0 +1,122 @@
+
+
+.apple_product{
+    margin-left: 0.7rem;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+
+
+display: flex;
+align-items: center;
+
+
+
+color: #A2A6B0;
+margin-top:3%;
+}
+.product_nm{
+    position: absolute;
+width: 583px;
+height: 48px;
+margin-left:9rem;
+right:60px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 48px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.product-info{
+    position: absolute;
+    width: 567px;
+    height: 312px;
+    margin-left: 500px;
+    top: 451px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px 10px;
+    /* or 171% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* Color - 7 */
+    
+    color: #000000;
+    
+    
+}
+.product-details{
+    text-align:left;
+    
+    margin-left:30%;
+    font-family: Poppins;
+    font-size:14px;
+    padding:0px 10px;
+    height: 3447px;
+width: 1064px;
+left: 0px;
+top: 237px;
+border-radius: 0px;
+
+}
+.product_id{
+    margin-left:1rem;
+    padding:2px 2px;
+    display: flex;
+}
+.product-t{
+    position: absolute;
+    width: 138px;
+    height: 18px;
+    margin-left:9rem;
+    top: 409px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    padding:10px 10px;
+
+}
+@media screen and (max-width: 568px) {
+    .product_nm{
+        position: absolute;
+width: 213px;
+height: 66px;
+left: 15px;
+top: 655px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 33px;
+
+color: #000000;
+
+    }
+    .apple_product{
+        display: flex;
+    }
+}

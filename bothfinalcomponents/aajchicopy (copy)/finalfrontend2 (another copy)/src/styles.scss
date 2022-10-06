@@ -1,0 +1,25 @@
+$color_1: white;
+$font-family_1: "Poppins", sans-serif;
+$background-color_1: #0156FF;
+
+/* You can add global styles to this file, and also import other style files */
+@import "./variable.scss";
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap";
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: $font-family_1;
+}
+.custom-btn1 {
+	padding: 12px 15px;
+	border-radius: 50px;
+	background-color: $background-color_1;
+	color: $color_1;
+	border: none;
+	outline: none;
+	font-size: 14px;
+	font-weight: 600;
+	height: 40px;
+	width: 150px;
+}

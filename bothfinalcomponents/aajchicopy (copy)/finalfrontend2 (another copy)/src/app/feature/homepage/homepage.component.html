@@ -1,0 +1,108 @@
+<div class="container-fluid contact_us_container">
+  <div class="container contact_us_info">
+    <div class="contact_info_left">
+      <span class="grey_text">Mon-Thu:</span> <span> <b>9:00 AM - 5:30 PM</b></span>
+    </div>
+    <div class="contact_info_right"><span class="call_us"><b>Call Us: (00) 1234 5678</b></span></div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="left:0px;">
+    <a class="navbar-brand" href="#"><img src="assets/images/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Laptops <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#">Desktops</a>
+        <a class="nav-item nav-link" href="#">Networking Devices</a>
+        <a class="nav-item nav-link" href="#">Printers&Scanners</a>
+        <a class="nav-item nav-link" href="#">PC Parts</a>
+        <a class="nav-item nav-link" href="#">All Other Products</a>
+       
+      </div>
+    </div>
+  </nav>
+  <br><br><br><br><br><br>
+<div class="container-fluid d-none d-lg-block">
+  <div class="header">
+    <div class="row">
+      <div class="col">
+        <div class="left">
+          <span class="about_product">About Product</span>
+        </div>
+      </div>
+      <div class="col center">
+        <div class="right">
+          <span class="price">Price : <b>{{ 299.00 | currency :"USD"}}</b></span>
+          <input
+            #quantity
+            class="input-lg input-md quantity"
+            min="1"
+            max="5"
+            type="number"
+            value="1"
+          />
+          <button
+            (click)="checkout(quantity)"
+            class="btn btn-primary custom-button"
+          >
+            Buy Now
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================= Product Description and Buy Now Section =========== -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col">
+      <div class="row">
+        <div
+          class="container-fluid col-lg-7 product-description order-lg-1 order-md-2 order-sm-2 order-2"
+        >
+          <!-- main description container -->
+          <div class="container main-description">
+            <div class="row ms-3 p-3">
+              <div class="about d-block d-lg-none">
+                <span>About Product</span>
+              </div>
+              <div
+                class="col product-info"
+                *ngFor="let product of product"
+              >
+                <app-product-details></app-product-details>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="container-fluid col-lg-5 product-images order-lg-2 oder-md-1 order-sm-1 order-1"
+        >
+          <app-product></app-product>
+        <div class="buy-option d-lg-none d-block">
+          <div *ngFor="let product of product">
+            <span class="price-md">Price : <b>{{ product.product_price | currency :"USD"}}</b></span>
+             <input 
+              #noOfItems
+              class="input-lg quantity-md"
+              min="1"
+              max="5"
+              type="number"
+              value="1"
+            />     
+           
+            <button
+              (click)="checkout(noOfItems)"
+              class="btn btn-primary custom-button"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+{
+"product_id":"101",
+"product_name":"New Apple AirPods (3rd Generation)",
+"price":"299.00",
+"images":[
+    "src/assets/images/apple_logo.png",
+    "src/assets/images/check.png",
+    "src/assets/images/cross.png",
+    "src/assets/images/logo.png"
+]
+
+
+
+}

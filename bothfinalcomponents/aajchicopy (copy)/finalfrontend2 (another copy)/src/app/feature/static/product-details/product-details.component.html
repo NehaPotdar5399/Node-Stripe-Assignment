@@ -1,0 +1,38 @@
+<div class="container">
+<div class="product-details">
+<span class="apple_product">APPLE PRODUCTS</span>
+<div *ngFor="let product of product" >
+          <span class="product_nm">{{ product.product_name }}</span>
+        </div><br><br><br>
+        <div class="product_tag">
+          <span class="product_t">It’s magic, remastered!</span></div>
+          
+          <ul class="product_info">
+            <li>
+              Spatial audio with dynamic head tracking places sound all around you
+            </li>
+            <li>Adaptive EQ automatically tunes music to your ears</li>
+            <li>All-new contoured design</li>
+            <li>
+              Force sensor lets you easily control your entertainment, answer
+            </li>
+            <li>or end calls, and more</li>
+            <li>Sweat and water resistant</li>
+            <li>Up to 6 hours of listening time with one charge</li>
+            <li>
+              Up to 30 hours of total listening time with the MagSafe Charging
+              Case
+            </li>
+            <li>Quick access to Siri by saying “Hey Siri”</li>
+            <li>
+              Effortless setup, in-ear detection and automatic switching for a
+              magical experience
+            </li>
+            <li>
+              Easily share audio between two sets of AirPods on your iPhone, iPad,
+              iPod touch or Apple TV
+            </li>
+          </ul>
+          <div *ngFor="let product of product" class="product_id" style="margin-left:0px; float: left;">
+          <span class="product_i" >{{ product.id }}</span></div>
+        </div></div>

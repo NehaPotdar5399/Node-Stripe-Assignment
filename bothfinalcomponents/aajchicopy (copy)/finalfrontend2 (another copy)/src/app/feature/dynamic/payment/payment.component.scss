@@ -1,0 +1,59 @@
+.payment_success_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  .payment_success_card {
+    position: relative;
+    padding: 30px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 40%;
+  }
+  .payment-card{
+      width:1500px;
+      justify-content: center;
+  }
+  .purchase_success {
+    margin: 30px 0px;
+  }
+  .purchase_success span {
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .product_soon span {
+    font-weight: 300;
+    font-size: 18px;
+  }
+  .product_experience p {
+    font-weight: 300;
+    font-size: 18px;
+  }
+  .cross {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    margin-left: 90%;
+    align-items: right;
+  }
+  @media screen and (max-width: 1024px) {
+    .payment_success_card {
+      width: 60%;
+    }
+  }
+  @media screen and (max-width: 810px) {
+    .payment_success_card {
+      width: 70%;
+    }
+  }
+  @media screen and (max-width: 568px) {
+    .payment_success_card {
+      padding: 20px 10px;
+      width: 95%;
+    }
+  }
